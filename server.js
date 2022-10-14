@@ -6,8 +6,8 @@ const razorpay = require("razorpay");
 app.use(bodyParser.json());
 
 var instance = new razorpay({
-  key_id: "rzp_test_KFFAcc8lPfLdwf",
-  key_secret: "mD7tBM34NToGxmPCQ3HCingU",
+  key_id: "KEY_ID",
+  key_secret: "KEY_SECRET",
 });
 
 
